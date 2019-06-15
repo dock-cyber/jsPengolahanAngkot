@@ -56,7 +56,7 @@ var hapusPenumpang = function(namaPenumpang, penumpang){
                 return penumpang;
             }
             // jika tidak ada nama yg sesuai
-            else if(i < namaPenumpang -1){
+            else if(i < penumpang.length -1){
                 // tampilkan pesan kesalahannya
                 console.log(namaPenumpang+' tidak ada di daftar penumpang bambang!');
                 // kembalikan isi array dan keluar dari function
